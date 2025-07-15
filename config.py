@@ -5,27 +5,27 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = "6435225"
+API_ID = "28542531"
 # -------------------------------------------------------------
-API_HASH = "4e984ea35f854762dcde906dce426c2d"
+API_HASH = "9f4889cd2437d72ede20428c07a909be"
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7953139932:AAGzXvqUklOpNBxtqwJ7xeGHg2m26ODSubM")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "Swaggy_Rajput")
-BOT_USERNAME = getenv("BOT_USERNAME", "NishaMusix_Bot")
-BOT_NAME = getenv("BOT_NAME", "NishaMusix")
+BOT_TOKEN = getenv("BOT_TOKEN", "6365132039:AAF48I0KgZe4cyHmhMiRx_K634u6BEKApDQ")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "Hey_hotties")
+BOT_USERNAME = getenv("BOT_USERNAME", "Oreo_x_music_bot")
+BOT_NAME = getenv("BOT_NAME", "σꝛᴇo ꭙ ᴍᴜꜱɪᴄ")
 ASSUSERNAME = getenv("ASSUSERNAME", "PIKKU_DP_WORLD")
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://nishamusic:Nothing0000@nishamusicbot.dg20jss.mongodb.net/?retryWrites=true&w=majority&appName=NishaMusicBot")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://String:iro@string.bfl5lcm.mongodb.net/?retryWrites=true&w=majority&appName=String")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1002553338682"))
-OWNER_ID = int(getenv("OWNER_ID", 6475959009))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001772857132"))
+OWNER_ID = int(getenv("OWNER_ID", 6045293810))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HRKU-1e980a6d-beb2-4fd7-8f13-7921cef9c27b")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/IR-O/pvt",)
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-YukkiMusic-08-30")
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SpicyxNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+hXY2z-kpAokwMDll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iro_bot_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/iro_x_support")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "9000"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
@@ -35,7 +35,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", "709e1a2969664491b582008
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
 TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
-STRING1 = getenv("STRING_SESSION", "BQFrNrwAllBxwMoFCJTPrICEbtl0zOZ1dabVObhPRgVklQETKmYj_qs5RmqkvRGDv-5RghzesjkYbOzPvGBCD9GLsPnXF1i72BROvUbpExZmJCypxGA3eZK4qpHXfX8IaioTsIt3ZdlDhDuiIu61fUA0SZuCoRKD8eTfuwnvvnYQuO3aCsviQ312eaKCKkhClCQByC9MK9pdv82FR3r-qZxekj17ZJXou5uT4TwvDk3H_U7fnjf-GqHid84mmll5uYpqkmtjf43dw6EcTtKotv3CTZgnqcpHmcdylFLNb6xhKtzd-L-OtlbVmE_wJXaua3Gk9BkyxQmYh8DvDWbeOeh0KH6U-QAAAAF0VV_2AA")
+STRING1 = getenv("STRING_SESSION", "BQDEFKsAgiokuBQL9u39ZqrvaCaQO3LKSggOy37pSrHZT5zVqgjq142NHplMweczk3QX9d7zyZtJRnkbAf68dI1UwZL6Zt8E-easqg2itztgxj1x9va6IZsqNUh9L6g8vo56oMeRC9zQ2B3ZIKQUAr-SQmbwKy4yaoZNV2dLrOa0CUC_F1gDWEcLdk-hdoUsQIfEeKVpVKJz8Qgj9YEd8YNgHjbt-TFE5WGcLhV12kjkCw8PCsx1sbALnoNk22TVrhc8HJQRuB5gdJxJeer8a1B4JBrSso6B84LPI0SjAHgu-xCiDI8Mi3h4YhM4c5EN-ajrSJZczpCYkp633E6eYan31cr2FgAAAAHmorCNAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
