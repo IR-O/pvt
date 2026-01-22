@@ -22,7 +22,7 @@ MONGO_DB_URI = getenv(
     "?replicaSet=atlas-xxxx-shard-0&ssl=true&authSource=admin"
 )
 
-#MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pikachu:randi@cluster0.tndvlel.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://pikachu:randi@cluster0.tndvlel.mongodb.net/?retryWrites=true&w=majority")
 #MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://String:iro@string.bfl5lcm.mongodb.net/?retryWrites=true&w=majority&appName=String")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", "-1001772857132"))
