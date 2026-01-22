@@ -9,7 +9,7 @@ API_ID = "28542531"
 # -------------------------------------------------------------
 API_HASH = "9f4889cd2437d72ede20428c07a909be"
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5663640542:AAG5QT3aXxyTlD7jId6okRvEpvoQ91DNqm4")
+BOT_TOKEN = getenv("BOT_TOKEN", "5663640542:AAGW3Kzx9LynxEMraegYlW2xsp6THEcjTOE")
 OWNER_USERNAME = getenv("OWNER_USERNAME", "shaeep43")
 BOT_USERNAME = getenv("BOT_USERNAME", "Iro_x_music_bot")
 BOT_NAME = getenv("BOT_NAME", "iro ꭙ ᴍᴜꜱɪᴄ")
